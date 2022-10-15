@@ -1,0 +1,8 @@
+name: deploy on AWS
+on:
+  push:
+      branches:
+        - main
+jobs:
+  build:
+    runs-on: self-hosted
