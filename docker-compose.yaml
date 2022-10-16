@@ -24,7 +24,7 @@ services:
     container_name: react_drivenops_app
     build: ./front-end 
     volumes:
-    - build_react: /var/www/html
+    - build_react:/var/www/html
   
   nginx_drivenops_app:
     container_name: nginx_drivenops_app
