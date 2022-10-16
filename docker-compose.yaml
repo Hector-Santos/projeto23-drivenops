@@ -2,7 +2,6 @@ services:
   postgres_drivenops_db:
     image: postgres
     container_name: postgres_drivenops_db
-    restart: always
     ports: 
      - 4457:5432
     env_file: 
