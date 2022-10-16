@@ -6,7 +6,7 @@ services:
      - 4457:5432
     env_file: 
      - back-end/.env 
-    volumes: 
+    volumes:  
      - pg_drivenops_db:/var/lib/postgresql/data
 
   node_drivenops_app:
