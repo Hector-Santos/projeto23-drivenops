@@ -39,4 +39,4 @@ services:
       - react_drivenops_app 
 volumes: 
   pg_drivenops-db:
-  build react:
+  build_react:
