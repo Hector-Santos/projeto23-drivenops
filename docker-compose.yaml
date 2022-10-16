@@ -33,7 +33,7 @@ services:
       - 80:80
     volumes:
       - build_react: /var/www/html
-    depends on:
+    depends_on:
       - postgres_drivenops_db
       - node_drivenops_app
       - react_drivenops_app 
