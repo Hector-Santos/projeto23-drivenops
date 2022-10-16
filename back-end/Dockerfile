@@ -10,3 +10,4 @@ RUN npm i && npm run build && npx prisma generate
 
 CMD ["npm", "start"]
 
+ 
