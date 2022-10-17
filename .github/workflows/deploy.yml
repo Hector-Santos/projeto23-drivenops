@@ -30,4 +30,4 @@ jobs:
       - name: Build process
         run: docker-compose build
       - name: Run app docker compose
-        run: docker-compose down && docker-compose up -d 
+        run: docker-compose down && docker-compose up -d  
