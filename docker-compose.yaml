@@ -30,7 +30,7 @@ services:
     container_name: nginx_drivenops_app
     build: ./nginx
     ports:
-      - 8080:80
+      - 80:80
     volumes:
       - build_react:/var/www/html
     depends_on:
