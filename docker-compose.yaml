@@ -3,7 +3,7 @@ services:
     image: postgres
     container_name: postgres_drivenops_db
     ports: 
-     - 4457:5243
+     - 4457:5432
     env_file: 
      - back-end/.env 
     volumes:  
