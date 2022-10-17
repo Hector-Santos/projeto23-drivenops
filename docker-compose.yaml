@@ -3,7 +3,7 @@ services:
     image: postgres
     container_name: postgres_drivenops_db
     ports: 
-     - 4457:5432
+     - 4457:5243
     env_file: 
      - back-end/.env 
     volumes:  
@@ -35,7 +35,7 @@ services:
     depends_on:
       - postgres_drivenops_db
       - node_drivenops_app
-      - react_drivenops_app
+      - react_drivenops_app 
 volumes: 
   pg_drivenops_db:
   build_react:
