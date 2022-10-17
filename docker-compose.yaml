@@ -13,6 +13,7 @@ services:
   node_drivenops_app:
     container_name: node_drivenops_app
     build: ./back-end
+    restart: always
     ports:
     - 5000:5000 
     depends_on:
