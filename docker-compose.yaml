@@ -1,6 +1,6 @@
 services: 
   postgres_drivenops_db:
-    image: postgres:13
+    image: postgres
     container_name: postgres_drivenops_db
     restart: always
     ports: 
